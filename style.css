@@ -1,0 +1,47 @@
+/* banner sectio */
+
+.banner-img{
+    width: 635px;
+    height: 800px;
+    
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.banner-text{
+    max-width: 634px;
+}
+.banner-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+
+}
+
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+.btn-primary{
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: white;
+}
+    
