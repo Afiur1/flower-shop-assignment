@@ -1,3 +1,9 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /* banner sectio */
 
 .banner-img{
@@ -215,6 +221,8 @@ footer{
 height: 449px;
 background: #111010;
 }
+
+
 #footer-heading{
     color: white;
     font-size: 48px;
@@ -222,13 +230,29 @@ background: #111010;
 }
 #footer-description{
     color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.footer-text-container{
+     top: 50%;
+    left: 50%;
+    text-align: center;
+    padding-top: 90px;
+
+}
+#copyright{
+color: rgba(255, 255, 255, 0.40);
 text-align: center;
 font-family: Lato;
-font-size: 18px;
-
+font-size: 16px;
+font-style: normal;
 font-weight: 400;
-
-
+line-height: normal;
 }
 
 
