@@ -132,7 +132,7 @@
     align-items: center;
     margin-top: 130px;
 }
-    
+
 
 
 /* discount section style */
@@ -167,3 +167,42 @@
   padding: 5px;
 
 }
+
+
+.rectangle-subscripe-section{
+    width: 1440px;
+height: 449px;
+border-radius: 8px;
+background: url("./Flower\ Asset/.rectangle-email-section"), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+margin: 130px 240px 130px 240px;
+
+position: relative;
+  text-align: center;
+  
+  color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+    
+}
+#email-measurement{
+    width: 700px;
+height: 64px;
+border-radius: 8px;
+background: #FFF;
+padding-left: 15px;
+margin-bottom: 5px;
+}
+    
