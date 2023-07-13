@@ -146,16 +146,12 @@
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    margin-bottom: 130px;
 }
 
 .discount-text{
-    padding-bottom: 10px;
-    justify-items: center;
-    justify-content: center;
-    text-align: center;
+    display: inline-block;
 }
 
 .btn-discount{
@@ -169,17 +165,7 @@
 .text-primary{
     color:#E55473 ;
 }
-.discount-btn{
-    
-    padding: 20px 43px;
-    align-items: center;
-    gap: 10px;
-    border-radius: 8px;
-    background: #E55473;
-    border: none;
-    color: white;
 
-}
 /* instagram section style */
 .insta-img-container{
     display: flex;
@@ -203,12 +189,12 @@ position: relative;
   text-align: center;
   
   color: #272727;
-  text-align: center;
-  font-family: Lato;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
 
 }
 .subscription-container{
@@ -222,19 +208,18 @@ position: relative;
 }
 #email-measurement{
     width: 700px;
-    height: 64px;
-    border-radius: 8px;
-    background: #FFF;
-    padding-left: 15px;
-    margin-bottom: 5px;
+height: 64px;
+border-radius: 8px;
+background: #FFF;
+padding-left: 15px;
+margin-bottom: 5px;
 }
 
 /* footer section style */
 footer{
-width: 1922px;
+    width: 1922px;
 height: 449px;
 background: #111010;
-text-align: center;
 }
 
 
@@ -242,23 +227,22 @@ text-align: center;
     color: white;
     font-size: 48px;
     font-weight: 800;
-    margin-bottom: 18px;
 }
 #footer-description{
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-family: Lato;
     font-size: 18px;
-    
+    font-style: normal;
     font-weight: 400;
-    
-    margin-bottom: 40px;
+    line-height: 30px;
 
 }
 .footer-text-container{
+     top: 50%;
+    left: 50%;
     text-align: center;
     padding-top: 90px;
-
 
 }
 #copyright{
@@ -270,6 +254,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
 
 
 
